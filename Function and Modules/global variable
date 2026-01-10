@@ -1,0 +1,9 @@
+def sum(a,b):
+    global z # declare z as global variable
+    z=5  #this will be global variable
+    return a+b 
+
+z=2
+print(sum(5,6))
+print(z)
+
