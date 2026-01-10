@@ -4,7 +4,7 @@ def fib(n):
         return n
     else:
         return fib(n-2) + fib(n-1)
- print(fib(4))
+print(fib(4))
 
 
 # n=0
@@ -18,3 +18,4 @@ def fib(n):
 i tried using while loop to print fibonacci series till a desired number 
 it was a sucess
 '''
+
