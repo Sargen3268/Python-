@@ -6,6 +6,7 @@ class Employee:
     company="HP"
     
     def get_salary(self):
+        print(self)
         return 30000
 
 e=Employee()  #an object of class Employee
